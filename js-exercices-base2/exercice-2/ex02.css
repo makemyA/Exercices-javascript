@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	width:50%;
+	margin: 1em auto 0 auto;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+border-radius: 5px;
+background-color: black;
+color: white;
+width: 40%;
+height: 2em;
+flex:100%;
+
+}
+.reponse {
+	display: flex;
+	margin: 1em;
+	justify-content: center;
+	align-items: center;
+	width:10%;
+	height:2em;
+	border:1px solid blue;
+	font-size: 1em;
+
+
+}
