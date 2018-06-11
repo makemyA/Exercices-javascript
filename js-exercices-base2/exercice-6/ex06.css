@@ -1,0 +1,9 @@
+body {
+	display: flex;
+	width:50%;
+	margin: 1em auto 0 auto;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
