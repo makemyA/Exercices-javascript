@@ -1,0 +1,55 @@
+body {
+	display: flex;
+	width:50%;
+	margin: 1em auto 0 auto;
+	text-align: left;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	border: 4px solid blue;
+}
+/* .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+border-radius: 5px;
+background-color: black;
+color: white;
+width: 40%;
+height: 2em;
+flex:100%;
+
+} */
+.operation {
+	display: flex;
+	margin: 1em;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height:auto;
+	border:1px solid red;
+	font-size: 1em;
+	
+	flex-wrap: wrap;
+
+}
+.operation p {
+	flex:100%;
+	padding-left: 1em;
+}
+.reponse {
+	display: flex;
+
+	margin: 1em;
+	justify-content: center;
+	align-items: center;
+	
+	height:2em;
+	border:1px solid blue;
+	font-size: 1em;
+	flex:30%;
+}
+.a {
+	font-size: 1em;
+	color:red;
+}
