@@ -6,8 +6,8 @@ var calculMoyenne = function(){
 	var entier = Number.isInteger(nombre);
   
 	for ( var i = 0; nombre>=0; i++) {
-    if (entier=== false) {
-      while (entier=== false) {
+    if (entier === false) {
+      while (entier === false) {
 	 alert("Entrée non valide");
   nombre = Number(prompt("Veuillez entrer un nombre entier"));
 	entier = Number.isInteger(nombre);
